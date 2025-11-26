@@ -73,7 +73,6 @@
 										<xsl:value-of select="@makstud"/>
 									</td>
 
-									<!-- Count by filters -->
 									<td>
 										<xsl:value-of select="count(//lugumised[@kuupaev = current()/@kuupaev])"/>
 									</td>
